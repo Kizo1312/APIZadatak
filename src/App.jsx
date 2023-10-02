@@ -4,8 +4,8 @@ import NasaImage from "./NasaImage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
+      <header>
         <NasaImage />
       </header>
     </div>
