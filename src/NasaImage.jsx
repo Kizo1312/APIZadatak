@@ -12,7 +12,7 @@ function NasaImage() {
         const result = await response.json();
         setData(result);
       } catch (error) {
-        console.error("Greška prilikom dohvata podataka:", error);
+        console.error("Error", error);
       }
     };
 
